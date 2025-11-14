@@ -1,0 +1,23 @@
+# Core scientific computing packages
+numpy>=1.20.0
+matplotlib>=3.3.0
+scipy>=1.7.0
+scikit-learn>=0.24.0
+
+# PyTorch (deep learning framework)
+torch>=2.0.0
+
+# Simulation-based inference packages
+zuko>=1.0.0
+
+# Sampling packages
+emcee>=3.1.0
+dynesty>=2.0.0
+
+# Validation and visualization
+tarp>=0.3.0
+deprecation>=2.1.0
+corner>=2.2.0
+
+# Graph neural networks (required for Tutorial 05b)
+torch-geometric>=2.3.0
