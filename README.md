@@ -91,12 +91,6 @@ Simulation data for Tutorials 05a and 05b are located in the `data/` directory:
 - Contains 10,000 simulated stellar streams with subhalo impacts
 - Each stream has ~1,000-10,000 particles with 6D phase-space coordinates
 
-## Workshop Information
-
-**Event**: DESC Stellar Stream Workshop
-**Location**: University of Washington, Seattle
-**Dates**: November 17-21, 2024
-
 ## Credits
 
 Tutorials created by Tri Nguyen with assistance from Claude Code.
