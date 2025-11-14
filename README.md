@@ -1,4 +1,5 @@
 # Simulation-Based Inference (SBI) Tutorials
+README and Installation instruction generated automatically with Claude Code
 
 Tutorials for the **DESC Stellar Stream Workshop** at University of Washington (November 17-21, 2024)
 
