@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Download and extract data from Dropbox
-# Usage: ./download_and_extract.sh [output_directory]
+# Usage: ./download_data.sh [output_directory]
 
 OUTPUT_DIR="${1:-.}"  # Default to current directory if not specified
 
