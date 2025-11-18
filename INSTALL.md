@@ -25,11 +25,16 @@ pip install -r requirements.txt
 If you have a CUDA-compatible GPU and want to accelerate training, install PyTorch with CUDA support:
 
 ```bash
-# For CUDA 11.8
-pip install torch --index-url https://download.pytorch.org/whl/cu118
-
 # For CUDA 12.1
-pip install torch --index-url https://download.pytorch.org/whl/cu121
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+```
+
+Run `nvidia-smi` in your terminal to check your GPU and CUDA version.
+
+If you do not have a compatible GPU, install the CPU version:
+
+```bash
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
 ```
 
 Visit [PyTorch's official website](https://pytorch.org/get-started/locally/) for more options.
