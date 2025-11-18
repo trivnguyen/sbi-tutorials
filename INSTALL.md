@@ -48,7 +48,7 @@ pip install torch-geometric
 pip install pyg-lib torch-scatter torch-sparse torch-cluster torch-spline-conv -f https://data.pyg.org/whl/torch-$(python -c "import torch; print(torch.__version__)")+cpu.html
 ```
 
-For GPU support, replace `cpu` with your CUDA version (e.g., `cu118` or `cu121`).
+For GPU support, replace `cpu` with your CUDA version (e.g., `cu118` or `cu121`). Visit [PyTorch Geometric Installation](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html) for more details.
 
 ### 5. Verify installation
 
