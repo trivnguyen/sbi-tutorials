@@ -32,3 +32,6 @@ else
     echo "Error: Download failed."
     exit 1
 fi
+
+# remove the archive after extraction
+rm "$FILENAME"
